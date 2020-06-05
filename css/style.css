@@ -1,5 +1,29 @@
 /*stylesheet*/
 
+/*
+
+tiers of cascading styles
+
+Importance - 
+
+1. Transition
+2. !important
+3. animation
+4. normal
+
+Origin
+website
+user
+browser
+
+Specificity
+inline > id > class > type
+
+position
+top to bottom
+
+*/
+
 /*here is my nice comment*/
 body {
 	background-color: #ffb6c1;
@@ -14,13 +38,14 @@ h1#main-headline {
 h1.main-headline {
    font-size: 48px;
    color:red;
-   font-weight: 800;
+   font-weight: 800
+   font-size: 67px;
 }
 
 h1, h2, h3, h4 {
 	margin: 0;
 }
 
-p:last-child {
-	color:blue;
+p {
+	color: orange !important;
 }
