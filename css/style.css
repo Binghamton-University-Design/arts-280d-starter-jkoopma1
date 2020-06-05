@@ -1,6 +1,26 @@
 /*stylesheet*/
 
+/*here is my nice comment*/
 body {
 	background-color: #ffb6c1;
 	color: #2d1832;
+}
+h1#main-headline {
+   font-size: 48px;
+   color:green;
+   font-weight: 800;
+}
+
+h1.main-headline {
+   font-size: 48px;
+   color:red;
+   font-weight: 800;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+p:last-child {
+	color:white;
 }
